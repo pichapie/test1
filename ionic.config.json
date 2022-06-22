@@ -1,0 +1,7 @@
+{
+  "name": "Digipulse App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,6 @@
+<div class="input" [class.hasIcon]="!!icon" [class.isSmall]="size === 'small'">
+  <input [placeholder]="placeholder" type="text" />
+  <div *ngIf="icon" class="icon">
+    <ion-icon [name]="icon"></ion-icon>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.input {
+  width: 100%;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+
+  input {
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+
+    &::placeholder {
+      color: #a4a4a4;
+    }
+  }
+
+  .icon {
+    margin-left: auto;
+    margin-right: 1.5rem;
+    font-size: 2rem;
+    width: 15px;
+    transform: translateY(4px);
+    color: var(--app-color-text-muted);
+    cursor: pointer;
+  }
+
+  &.hasIcon {
+    input {
+      padding: 0px 0px 0px 15px !important;
+    }
+  }
+  &.isSmall {
+    input {
+      font-size: 0.8rem;
+    }
+  }
+}
